@@ -74,16 +74,16 @@ body{
     justify-content: space-between;
 }
 
-.col-8{
-    width: calc(100%/12*8)
-}
-
 .col-4{
     width: calc(100%/12*4)
 }
 
 .col-6{
     width: calc(100%/12*6);
+}
+
+.col-8{
+    width: calc(100%/12*8)
 }
 
 .d-none{
