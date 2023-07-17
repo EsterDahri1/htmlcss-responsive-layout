@@ -39,12 +39,12 @@ body{
 }
 
 .debug #site_main{
-    height: 1200px;
+    height: 1800px;
     background-color: rgb(0, 255, 38);
 }
 
 .debug #site_footer{
-    height: 90px;
+    height: 120px;
     background-color: rgb(255, 42, 0);
 }
 
