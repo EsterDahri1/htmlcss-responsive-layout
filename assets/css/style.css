@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+/*Common*/
+
+:root{
+    --rsp-primary: #9792E4;
+    --rsp-secondary: #FFFFFF;
+    --rsp-heanvenly: #0084FD;
+    --rsp-light-heanvenly: #B5DDFF;
+    --rsp-special: #FDC15F;
+    --rsp-footer: #333333;
+}
+
 .container{
     max-width: 1152px;
     width: 80%;
