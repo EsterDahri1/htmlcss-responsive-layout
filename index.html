@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First responsive layout</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header id="site_header"></header>
+<body class="debug">
+    <header id="site_header" class="d-flex">
+        <div class="container d-flex justify-between">
+            <div class="logo">logo</div>
+            <nav class="d-flex">
+                <ul class="unstyled d-flex">
+                    <li>Lorem.</li>
+                    <li>Exercitationem?</li>
+                    <li>Aut.</li>
+                    <li>Aperiam!</li>
+                </ul>
+                <a href="#" class="btn">Get started</a>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+        </div>
+    </header>
     <!-- /#site_header -->
-    <main id="site_main"></main>
+    <main id="site_main">
+        <section id="offers"></section>
+        <section id="plan"></section>
+        <section id="testimonials"></section>
+        <section id="benefits"></section>
+        <section id="about"></section>
+        <section id="subscribe"></section>
+    </main>
     <!-- /#site_main -->
     <footer id="site_footer"></footer>
     <!-- /#site_footer -->
