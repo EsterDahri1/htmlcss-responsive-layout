@@ -24,7 +24,7 @@
 
 body{
     background-color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .row{
@@ -34,8 +34,8 @@ body{
 /*Debug*/
 
 .debug #site_header{
-    height: 70px;
-    background-color: blue;
+    height: 75px;
+   
 }
 
 .debug #site_main{
@@ -52,19 +52,9 @@ body{
     background-color: aqua;
 }
 
-.debug .logo{
-    background-color: rgba(0, 100, 0, 0.345);
-}
 
-.debug nav{
-    background-color: rgba(165, 42, 42, 0.412);
-}
 
 /*Utilities*/
-
-.unstyled{
-    list-style: none;
-}
 
 .d-flex{
     display: flex;
@@ -90,6 +80,48 @@ body{
     display: none;
 }
 
+.d-block{
+    display: block;
+}
 
+/*Header*/
 
-/*Mobile style*/
+#site_header{
+    height: 75px;
+    background-color: var(--rsp-heanvenly);
+}
+
+.logo img{
+    padding: 10px;
+}
+
+nav>.menu{
+    
+}
+
+div>.desktop_menu a{
+    color: var(--rsp-secondary);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn{
+    color: var(--rsp-footer);
+    background-color: var(--rsp-secondary);
+    border-radius: 20px;
+    width: 110px;
+    height: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.3rem
+}
+
+/*Main*/
+
+section{
+    padding: 50px 0;
+}
+/*Footer*/
+
+/*Mobile first*/
