@@ -284,6 +284,10 @@ cite{
     margin-bottom: 50px;
 }
 
+#benefits .col-12{
+    padding: 20px 0;
+}
+
 #benefits .card{
     background-color: var(--rsp-secondary);
     border-radius: 30px;
@@ -414,6 +418,10 @@ footer p {
 /*Mobile first*/
 
 @media screen and (min-width: 768px){
+    .container{
+        width:90%
+    }
+
 	.d-md-none
 	{
 		display: none;
@@ -441,6 +449,23 @@ footer p {
 
     .f-md-row {
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #benefits .card{
+        
+    }
+
+    #about .col-md-8{
+        margin: -20px;
+    }
+    
+    #about .col-md-4{
+        padding-left: 30px;
+    }
+
+    #about img{
+        width:100%;
     }
 }
 
