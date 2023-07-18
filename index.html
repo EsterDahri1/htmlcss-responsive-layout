@@ -8,23 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="debug">
+<body class="">
     <header id="site_header" class="d-flex">
-        <nav class="container d-flex justify-between">
+        <nav class="container d-flex justify-between align-center">
             <div class="logo">
                 <img width="100" src="./assets/img/logo.png" alt="White written logo of the application">
             </div>
-            <div class="menu d-flex">
-                <div class="desktop_menu">
+            <div class="menu d-flex align-center">
+                <div class="desktop_menu d-sm-none d-md-none d-lg-block">
                     <a href="#plan">Planning</a>
                     <a href="#testimonials">Testimonials</a>
                     <a href="#benefits">Features</a>
                     <a href="#about">About Us</a>
                 </div>
-                <a href="#subscribe" class="btn">Get Started</a>
-                <div class="mobile_menu d-block">
-                    <i class="fa-solid fa-bars"></i>
+                <a href="#subscribe" class="btn d-sm-none d-md-none d-lg-block">Get Started</a>
+
+                <div class="mobile_menu d-sm-block d-md-block d-lg-none">
+                    <i class="fa-solid fa-bars fa-xl fa-fw"></i>
                 </div>
             </div>
         </nav>
