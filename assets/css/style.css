@@ -80,12 +80,24 @@ body{
     width: calc(100%/12*8)
 }
 
+.col-12{
+    width: 100%;
+}
+
 .d-sm-none{
     display: none;
 }
 
 .d-sm-block{
     display: block;
+}
+
+.f-sm-column{
+    flex-direction: column;
+}
+
+.pb-30{
+    padding-bottom: 30px;
 }
 
 /*Header*/
@@ -126,6 +138,48 @@ div>.desktop_menu a{
 section{
     padding: 50px 0;
 }
+
+#phone{
+    width: 100%;
+}
+
+#offers .card{
+    background-color: var(--rsp-light-heanvenly);
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+#offers [class^="col-"]{
+    padding: 10px 0;
+}
+
+#offers .col-md-6 a{
+    background-color: var(--rsp-heanvenly);
+    color:var(--rsp-secondary);
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+#offers h3{
+    color:var(--rsp-heanvenly);
+    padding-bottom: 20px;
+}
+
+#offers p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #5A6E7F;
+}
+
+#offers .col-md-4 i{
+    color: var(--rsp-heanvenly);
+    padding-bottom: 1rem;
+}
+
+#offers .col-md-4 p, #offers .col-md-4 h3{
+    text-align: center;
+}
 /*Footer*/
 
 /*Mobile first*/
@@ -140,6 +194,25 @@ section{
 	{
 		display: block;
 	}
+
+    .col-md-4
+	{
+		width: calc(100% / 12 * 4);
+	}
+
+	.col-md-6
+	{
+		width: calc(100% / 12 * 6);
+	}
+
+	.col-md-8
+	{
+		width: calc(100% / 12 * 8);
+	}
+
+    .f-md-row {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1024px)
