@@ -137,6 +137,7 @@ div>.desktop_menu a{
 
 section{
     padding: 50px 0;
+    width:100%;
 }
 
 #phone{
@@ -272,7 +273,51 @@ cite{
     padding: 20px;
 }
 
+#subscribe{
+    background-color: var(--rsp-primary);
+    color: var(--rsp-secondary);
+    text-align: center;
+}
 
+.container-sm{
+    width:70%;
+    max-width: 480px;
+    margin: auto;
+}
+
+#subscribe h2{
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+#subscribe h1{
+    font-size: 60px;
+    color: var(--rsp-special);
+    padding-bottom: 30px;
+}
+
+#subscribe p{
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+    margin-bottom: 50px;
+}
+
+#start{
+    text-decoration: none;
+    background-color: var(--rsp-secondary);
+    color: var(--rsp-primary);
+    padding: 1rem 4rem;
+    border-radius: 30px;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+.copyright a{
+    color: var(--rsp-secondary);
+}
 /*Footer*/
 #site_footer{
     background-color: var(--rsp-footer);
