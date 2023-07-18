@@ -224,6 +224,53 @@ cite{
     padding: 15px 20px;
     margin-bottom: 20px;
 }
+
+#testimonials .col-12{
+    padding: 20px 0;
+}
+
+#testimonials{
+    text-align: center;
+}
+
+#testimonials h2{
+    color:var(--rsp-primary);
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#testimonials p{
+    line-height: 2rem;
+    padding: 20px;
+}
+
+.businesscard{
+    background-color: var(--rsp-primary);
+    border-radius: 30px;
+}
+
+.businesscard img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.quote{
+    color: var(--rsp-secondary);
+    line-height: 2rem;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.author{
+    text-transform:capitalize;
+    color: var(--rsp-secondary);
+    text-align: center;
+    padding: 20px;
+}
 /*Footer*/
 
 /*Mobile first*/
