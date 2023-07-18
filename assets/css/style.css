@@ -483,6 +483,12 @@ footer p {
 
 @media screen and (min-width: 1024px)
 {
+    .container{
+        width:100%;
+        max-width: 1152px;
+        margin:auto;
+    }
+
 	.d-lg-none
 	{
 		display: none;
@@ -492,4 +498,20 @@ footer p {
 	{
 		display: block;
 	}
+
+    .f-lg-row{
+        flex-direction: row;
+    }
+
+    .col-lg-6{
+        width: calc(100% / 12 * 6);
+    }
+
+    #plan img{
+        width: 100%;
+    }
+
+    .pt-250{
+        padding-top: 250px;
+    }
 }
