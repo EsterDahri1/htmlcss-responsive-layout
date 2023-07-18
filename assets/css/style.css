@@ -180,6 +180,50 @@ section{
 #offers .col-md-4 p, #offers .col-md-4 h3{
     text-align: center;
 }
+
+#plan{
+    background-color: var(--rsp-primary);
+}
+
+#plan .box{
+    padding:30px;
+}
+
+#plan img{
+    width: 100%;
+}
+
+#plan .box h2{
+    font-size: 2rem;
+    color: var(--rsp-secondary);
+    padding: 50px 0;
+}
+
+#plan p{
+    line-height: 2rem;
+    color: var(--rsp-secondary);
+}
+
+.boxdown{
+    background-color: var(--rsp-secondary);
+    border-radius: 30px;
+    margin: 30px;
+    gap: 1.5rem;
+}
+
+cite{
+    line-height: 2rem;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.boxdown a{
+    text-decoration: none;
+    background-color: var(--rsp-primary);
+    border-radius: 50%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
 /*Footer*/
 
 /*Mobile first*/
