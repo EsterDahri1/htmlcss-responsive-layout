@@ -273,6 +273,48 @@ cite{
     padding: 20px;
 }
 
+#benefits{
+    background-color: var(--rsp-primary);
+}
+
+#benefits h2{
+    color: var(--rsp-secondary);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#benefits .card{
+    background-color: var(--rsp-secondary);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#benefits h1{
+    color: var(--rsp-primary);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#benefits h3{
+    color: var(--rsp-primary);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#benefits p{
+    color: #5A6E7F;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+
+#benefits a{
+    color: var(--rsp-secondary);
+    background-color: var(--rsp-primary);
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
 #about h1{
     font-size: 45px;
     padding-bottom: 30px;
@@ -367,7 +409,7 @@ footer a{
 footer p {
     font-size: 1rem;
     line-height: 1.5rem;
-    padding: 40px;
+    padding: 40px 10px;
 }
 /*Mobile first*/
 
