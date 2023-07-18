@@ -271,8 +271,24 @@ cite{
     text-align: center;
     padding: 20px;
 }
-/*Footer*/
 
+
+/*Footer*/
+#site_footer{
+    background-color: var(--rsp-footer);
+    text-align: center;
+    color:var(--rsp-secondary);
+}
+
+footer a{
+    color: var(--rsp-primary);
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 40px;
+}
 /*Mobile first*/
 
 @media screen and (min-width: 768px){
